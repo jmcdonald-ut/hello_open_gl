@@ -19,5 +19,8 @@ LF = -framework OpenGL -lglfw3 -lglew
 # All source code files
 SRCS = $(wildcard $(SRC_DIR)/*.c)
 
-all: $(SRCS)
+all: $(SRCS) bin
 	$(CC) $(SRCS) $(INCS) $(LIBS) $(CF) $(LF) -o $(BIN_DIR)/$(PROJ_NAME)
+
+bin:
+	mkdir $@
