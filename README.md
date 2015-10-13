@@ -1,6 +1,7 @@
 hello\_open\_gl
 ===============
-Simple C program to demonstrate OpenGL on OS X.
+Simple C program to demonstrate OpenGL on OS X. It looks kinda like this:
+![Imgur](http://i.imgur.com/kHxF7xK.png)
 
 ## Project Structure
 ```
